@@ -10,9 +10,9 @@ Turkmen Assistant - Профессиональный ассистент с по�
 __version__ = "1.0.0"
 __author__ = "Turkmen Assistant Team"
 
-from .core.assistant import TurkmenAssistant
-from .data.phrases import PhraseDatabase
-from .utils.helpers import LanguageHelper
+from TurkmenAssistant.core.assistant import TurkmenAssistant
+from TurkmenAssistant.data.phrases import PhraseDatabase
+from TurkmenAssistant.utils.helpers import LanguageHelper
 
 __all__ = [
     "TurkmenAssistant",

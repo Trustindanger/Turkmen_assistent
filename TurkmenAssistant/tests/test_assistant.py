@@ -11,9 +11,9 @@ from pathlib import Path
 root_dir = Path(__file__).parent.parent.parent
 sys.path.insert(0, str(root_dir))
 
-from turkmen_assistant.core.assistant import TurkmenAssistant
-from turkmen_assistant.data.phrases import PhraseDatabase
-from turkmen_assistant.utils.helpers import LanguageHelper
+from TurkmenAssistant.core.assistant import TurkmenAssistant
+from TurkmenAssistant.data.phrases import PhraseDatabase
+from TurkmenAssistant.utils.helpers import LanguageHelper
 
 
 class TestTurkmenAssistant(unittest.TestCase):
