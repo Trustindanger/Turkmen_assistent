@@ -1,3 +1,6 @@
 customtkinter==5.2.2
 psutil==6.1.0
 pyttsx3==2.98
+SpeechRecognition==3.10.1
+PyAudio==0.2.14
+requests==2.32.3
