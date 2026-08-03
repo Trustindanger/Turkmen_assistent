@@ -1,1 +1,0 @@
-# Turkmen_assistent
